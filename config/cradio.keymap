@@ -31,6 +31,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        lpar: lpar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LPAR";
+            bindings = <&kp LPAR>, <&kp LT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        rpar: rpar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RPAR";
+            bindings = <&kp RPAR>, <&kp GT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     conditional_layers {
@@ -102,7 +120,7 @@
         };
 
         brack3 {
-            bindings = <&kp LPAR>;
+            bindings = <&lpar>;
             key-positions = <17 16>;
             require-prior-idle-ms = <150>;
             timeout-ms = <18>;
@@ -110,7 +128,7 @@
         };
 
         brack4 {
-            bindings = <&kp RPAR>;
+            bindings = <&rpar>;
             key-positions = <17 18>;
             require-prior-idle-ms = <150>;
             timeout-ms = <18>;
