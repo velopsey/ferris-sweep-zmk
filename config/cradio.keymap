@@ -224,7 +224,7 @@
         num {
             bindings = <
 &trans            &kp N7                 &kp N8        &kp N9                   &trans    &none   &none           &none      &none         &none
-&kp LC(NUMBER_0)  &ht LEFT_ALT NUMBER_4  &ht LCTRL N5  &ht LEFT_SHIFT NUMBER_6  &trans    &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI
+&ht LEFT_META N0  &ht LEFT_ALT NUMBER_4  &ht LCTRL N5  &ht LEFT_SHIFT NUMBER_6  &trans    &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI
 &trans            &kp NUMBER_1           &kp NUMBER_2  &kp NUMBER_3             &trans    &trans  &trans          &trans     &trans        &none
                                                        &trans                   &trans    &trans  &trans
             >;
