@@ -247,9 +247,17 @@
             layers = <0>;
         };
 
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <17 27>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <17 27>;
+            key-positions = <26 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
             layers = <0>;
