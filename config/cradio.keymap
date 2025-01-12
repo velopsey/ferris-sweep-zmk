@@ -66,16 +66,16 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-            require-prior-idle-ms = <150>;
-            timeout-ms = <18>;
+            require-prior-idle-ms = <50>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-            require-prior-idle-ms = <150>;
-            timeout-ms = <18>;
+            require-prior-idle-ms = <50>;
+            timeout-ms = <30>;
             layers = <0>;
         };
 
