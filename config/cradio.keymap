@@ -167,8 +167,8 @@
             layers = <0>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
+        bslsh {
+            bindings = <&kp BSLH>;
             key-positions = <22 12>;
             require-prior-idle-ms = <50>;
             timeout-ms = <30>;
@@ -196,6 +196,62 @@
             key-positions = <14 24>;
             require-prior-idle-ms = <50>;
             timeout-ms = <30>;
+            layers = <0>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <15 5>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        under {
+            bindings = <&kp UNDER>;
+            key-positions = <15 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <16 6>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <17 7>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        deq {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <18 8>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <18 28>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <17 27>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
             layers = <0>;
         };
     };
