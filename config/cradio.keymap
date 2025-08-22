@@ -161,10 +161,10 @@
 
         nav {
             bindings = <
-&trans    &trans        &trans     &trans          &trans    &trans         &trans          &trans     &trans        &trans
-&kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &trans
-&trans    &trans        &trans     &trans          &trans    &trans         &trans          &trans     &trans        &trans
-                                   &trans          &trans    &trans         &trans
+&trans     &trans    &trans      &trans    &trans    &trans  &trans               &kp UP_ARROW           &trans                &trans
+&kp LCTRL  &kp LALT  &kp LSHIFT  &kp LCMD  &trans    &trans  &hm LCMD LEFT_ARROW  &hm LSHIFT DOWN_ARROW  &hm LALT RIGHT_ARROW  &kp LCTRL
+&trans     &trans    &trans      &trans    &trans    &trans  &trans               &trans                 &trans                &trans
+                                 &trans    &trans    &trans  &trans
             >;
         };
 
