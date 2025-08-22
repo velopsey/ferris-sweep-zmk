@@ -163,26 +163,26 @@
             bindings = <
 &trans    &trans        &trans     &trans          &trans    &trans         &trans          &trans     &trans        &trans
 &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &trans
-&trans    &none         &kp LEFT   &kp RIGHT       &trans    &kp TAB        &kp UP          &kp DOWN   &kp DELETE    &kp ENTER
+&trans    &trans        &trans     &trans          &trans    &trans         &trans          &trans     &trans        &trans
                                    &trans          &trans    &trans         &trans
             >;
         };
 
         num {
             bindings = <
-&kp N1        &kp N2           &kp N3               &kp N4             &kp N5       &trans  &trans    &trans     &trans        &trans
-&hm LCTRL N6  &hm LEFT_ALT N7  &hm LSHIFT NUMBER_8  &hm LCMD NUMBER_9  &kp N0       &trans  &kp LCMD  &kp LCTRL  &kp LEFT_ALT  &kp LCTRL
-&kp PLUS      &kp MINUS        &kp ASTRK            &kp FSLH           &kp EQUAL    &trans  &trans    &trans     &trans        &trans
+&kp N1        &kp N2           &kp N3               &kp N4             &kp N5       &trans  &trans    &trans      &trans        &trans
+&hm LCTRL N6  &hm LEFT_ALT N7  &hm LSHIFT NUMBER_8  &hm LCMD NUMBER_9  &kp N0       &trans  &kp LCMD  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL
+&kp PLUS      &kp MINUS        &kp ASTRK            &kp FSLH           &kp EQUAL    &trans  &trans    &trans      &trans        &trans
                                                     &trans             &trans       &trans  &trans
             >;
         };
 
         fn {
             bindings = <
-&kp EXCL   &kp AT     &kp POUND      &kp DLLR   &kp PRCNT    &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp TILDE  &kp BACKSLASH  &kp UNDER  &kp CARET    &trans  &trans  &trans  &trans  &trans
-&kp LT     &kp GT     &kp QMARK      &kp COLON  &kp AMPS     &trans  &trans  &trans  &trans  &trans
-                                     &trans     &trans       &trans  &trans
+&kp EXCL         &kp AT               &kp POUND             &kp DLLR        &kp PRCNT    &trans  &trans    &trans      &trans        &trans
+&hm LCTRL GRAVE  &hm LEFT_ALT TILDE2  &hm LSHIFT BACKSLASH  &hm LCMD UNDER  &kp CARET    &trans  &kp LCMD  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL
+&kp LT           &kp GT               &kp QMARK             &kp COLON       &kp AMPS     &trans  &trans    &trans      &trans        &trans
+                                                            &trans          &trans       &trans  &trans
             >;
         };
     };
