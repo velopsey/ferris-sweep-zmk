@@ -145,6 +145,11 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
