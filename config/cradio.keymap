@@ -160,7 +160,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <12 13>;
+            key-positions = <12 11>;
             timeout-ms = <25>;
             require-prior-idle-ms = <120>;
             layers = <0>;
@@ -190,18 +190,18 @@
 
         num {
             bindings = <
-&kp N1        &kp N2           &kp N3               &kp N4             &kp N5       &trans  &trans    &trans      &trans        &trans
-&hm LCTRL N6  &hm LEFT_ALT N7  &hm LSHIFT NUMBER_8  &hm LCMD NUMBER_9  &kp N0       &trans  &kp LCMD  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL
-&kp PLUS      &kp MINUS        &kp STAR             &kp SLASH          &kp EQUAL    &trans  &trans    &trans      &trans        &trans
-                                                    &trans             &trans       &trans  &trans
+&kp KP_ASTERISK   &kp N7            &kp N8              &kp N9        &kp N0          &trans  &trans    &trans      &trans        &trans
+&hml LCTRL EQUAL  &hml LEFT_ALT N4  &hml LEFT_SHIFT N5  &hml LCMD N6  &kp KP_PLUS     &trans  &kp LCMD  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL
+&kp KP_DIVIDE     &kp N1            &kp N2              &kp N3        &kp KP_MINUS    &trans  &trans    &trans      &trans        &trans
+                                                        &trans        &trans          &trans  &trans
             >;
         };
 
         fn {
             bindings = <
-&kp EXCL         &kp AT              &kp POUND             &kp DLLR        &kp PRCNT    &trans  &trans    &trans      &trans        &trans
+&trans           &kp AT              &kp POUND             &kp DLLR        &kp PRCNT    &trans  &trans    &trans      &trans        &trans
 &hm LCTRL GRAVE  &hm LEFT_ALT TILDE  &hm LSHIFT BACKSLASH  &hm LCMD UNDER  &kp CARET    &trans  &kp LCMD  &kp LSHIFT  &kp LEFT_ALT  &kp LCTRL
-&kp LT           &kp GT              &kp QMARK             &kp COLON       &kp AMPS     &trans  &trans    &trans      &trans        &trans
+&trans           &trans              &trans                &trans          &kp AMPS     &trans  &trans    &trans      &trans        &trans
                                                            &trans          &trans       &trans  &trans
             >;
         };
